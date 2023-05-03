@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Oswald:wght@400;500&family=Poppins&family=Share+Tech&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1, h2, h3, h4, h5, h6, p, label, span{
+  font-family: 'Arvo', serif;
+  margin: 0px;
+  padding: 0px; 
+}

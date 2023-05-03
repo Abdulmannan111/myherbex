@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ----------------------------------------- */
+
+.loaders {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #db3450;
+  /* Blue */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+.swal2-title {
+  color: white;
+}
+
+/* .home-txt-pd {
+    padding-top: -50px !important;
+   
+  } */
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.modal_class {
+  background-color: #0c2347;
+}
+
+.swal-modal {
+  background-color: #0c2347;
+}
+
+.modal_class_success .swal-icon::before {
+  background-color: transparent;
+}
+
+.modal_class_success .swal-icon::after {
+  background-color: transparent;
+}
+
+.swal-icon--success__hide-corners {
+  background-color: transparent;
+}
+
+.success {
+  color: #FF343F;
+  margin-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.extraCare {
+  margin-top: 15px;
+}
+
+.swal-text {
+  text-align: center;
+  color: #FF343F;
+  font-weight: normal;
+}
+
+/* swal */
+.modal_class_success {
+  background-color: #2D313A !important;
+  color: white !important;
+}
+
+.swal-text {
+  color: #fff !important;
+  text-align: center !important;
+}
+
+.modal_class_success .swal-icon::before {
+  background-color: transparent !important;
+}
+
+.modal_class_success .swal-icon::after {
+  background-color: transparent;
+}
+
+.swal-icon--success__hide-corners {
+  background-color: transparent;
+}
+
+.address {
+  font-weight: normal;
+  width: 80%;
+  color: #8FB9D4 !important;
+}
+
+.swal-content {
+  padding: 0 20px;
+  margin-top: 9px;
+  font-size: 13px;
+  overflow-wrap: break-word !important;
+  color: white !important;
+}
+
+.swal-title {
+  color: #fff !important;
+}
+
+.swal-text {
+  color: #fff;
+}
+
+.address {
+  color: rgb(166, 218, 63) !important;
+}

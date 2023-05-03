@@ -1,0 +1,111 @@
+/* ------------------------------------- */
+.button-metamask {
+    align-items: center;
+    background: #6CB646;
+    border: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Arvo;
+    font-size: 18px;
+    font-weight: 350;
+    justify-content: center;
+    line-height: 20px;
+    /* min-height: 60px; */
+    /* min-width: 0px; */
+    overflow: hidden;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+        box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+        color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin: 0;
+    /* animation: flash 1s infinite; */
+
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+}
+
+/* @keyframes flash {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: yellow;
+    }
+    100% {
+      background-color: blue;
+    }
+  } */
+
+@keyframes glowing {
+    0% {
+        background-color: #6CB646;
+        -webkit-box-shadow: 0 0 3px #6CB646;
+    }
+
+    50% {
+        background-color: #6CB646;
+        -webkit-box-shadow: 0 0 20px #6CB646;
+    }
+
+    100% {
+        background-color: #6CB646;
+        -webkit-box-shadow: 0 0 3px #6CB646;
+    }
+}
+
+.button-metamask:hover,
+.button-metamask:focus {
+    background-color: #6CB646;
+    color: #ffffff;
+}
+
+.button-metamask:active {
+    background-color: #6CB646;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.button-metamask:disabled {
+    cursor: not-allowed;
+    background: #466138;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.installPadding {
+    padding: 10px 70px;
+}
+
+.openPadding {
+    padding: 10px 68px
+}
+
+select {
+    background-color: #e6f7e7;
+}
+
+@media only screen and (max-width:500px) {
+    .button-metamask {
+        /* min-height: 40px; */
+        font-size: 12px !important;
+        min-width: 260px;
+    }
+
+    .installPadding {
+        padding: 10px 64px;
+    }
+
+    .openPadding {
+        padding: 10px 47px
+    }
+}
+
+
+/* ----------------------------------------- */

@@ -1,0 +1,51 @@
+.banner-button2 {
+    background-image: linear-gradient(to right, #FF512F 0%, #db1528 51%, #FF512F 100%);
+    margin: 10px;
+    padding: 8px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.fontText {
+    padding: 10px;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+.banner-button2:hover {
+    background-image: linear-gradient(to right, #db1528 0%, #FF512F 51%, #db1528 100%);
+}
+
+/* .iconCloses {
+    padding: 1px !important;
+    background-color: red !important;
+    border: none !important
+} */
+
+.iconClose {
+    position: absolute !important;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background: none !important;
+    border: none !important;
+    font-size: 25px !important;
+
+}
+
+
+.closeD {
+    text-align: right;
+}
+
+.closeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
